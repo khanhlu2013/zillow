@@ -1,8 +1,11 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "bundle.[contenthash].js"
   },
+  plugins: [new HtmlWebpackPlugin({ title: "Output Management" })],
   module: {
     rules: [
       {
