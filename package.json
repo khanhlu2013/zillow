@@ -21,7 +21,8 @@
   "homepage": "https://github.com/khanhlu2013/zillow#readme",
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
