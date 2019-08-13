@@ -33,6 +33,10 @@ module.exports = {
           "css-loader", // translates CSS into CommonJS
           "sass-loader"
         ]
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        use: ["file-loader"]
       }
     ]
   }
