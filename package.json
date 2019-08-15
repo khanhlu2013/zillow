@@ -20,9 +20,10 @@
   },
   "homepage": "https://github.com/khanhlu2013/zillow#readme",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "prop-types": "^15.7.2"
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",

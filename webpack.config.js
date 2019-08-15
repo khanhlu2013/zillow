@@ -35,6 +35,13 @@ module.exports = {
         ]
       },
       {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          "css-loader" // translates CSS into CommonJS
+        ]
+      },
+      {
         test: /\.(png|jpg|jpeg|gif)$/,
         use: ["file-loader"]
       },
